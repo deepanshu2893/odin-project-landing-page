@@ -3,7 +3,9 @@ body {
     flex-direction: column;
 }
 
-.firstSection {
+
+
+.page {
     background-color: #1f2937;
     color: white;
     padding-left: 100px;
@@ -36,12 +38,36 @@ a {
 }
 
 
+.head {
+    display: flex;
+}
 
 
+.firstSection {
+    display: flex;
+}
 
-
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
 
 img {
     width: 200px;
     height: auto;
 }
+
+.secondSection {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+
+
+}
+
+.info {
+    max-width: 200px;
+}
+
+.secondTitle {}
